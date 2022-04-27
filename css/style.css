@@ -1,0 +1,71 @@
+/*通用样式*/
+body,ul,li,p,h1,h2,h3,h4,h5{
+    margin:0;
+    padding:0;
+    font-size:100%;
+}
+body{
+    font-family: 'Microsoft YaHei UI', 'Microsoft YaHei', SimSun, 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+    font-size: 14px;
+    background: white;
+}
+img{
+    border:0;
+}
+
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.center{
+    width: 1000px;
+    margin: 0 auto 0;
+}
+/*content*/
+.content{
+    position: relative;
+    width: 900px;
+    height: 460px;
+    margin: 40px auto;
+}
+.l-pic-index{
+	/*display:none;*/
+    position: absolute;
+    left: 400px;
+    top: 1px;
+    z-index:2;
+    width:50px;
+    height:460px;
+    background: url("../images/j1.png") no-repeat right 0;
+}
+.r-pic-index{
+
+	/*display:none;*/
+    position: absolute;
+    right: 400px;
+    top: 0;
+    z-index: 2;
+    width:50px;
+    height:460px;
+    background: url("../images/j4.png") no-repeat left 0;
+}
+.l-bg-index{
+    position: absolute;
+    top: -3px;
+    left: 430px;
+    z-index: 1;
+    width: 25px;
+    height: 460px;
+    background: url("../images/j2.png") right 0 no-repeat;
+}
+.r-bg-index{
+    position: absolute;
+    top:-4px;
+    right: 430px;
+    z-index: 1;
+    width: 25px;
+    height: 459px;
+    background: url("../images/j3.png") 0 0 no-repeat;
+}
