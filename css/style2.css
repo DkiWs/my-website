@@ -30,13 +30,13 @@ Version: 1.0
 .sp{
 	width: 50%;
 	float: left;
-	margin: 100px 0 0 5%
+	margin: 30px 0 0 5%
 	
 }
 .dl{
 	width: 30%;
 	float: left;
-	margin: 200px 0 0 5%;
+	margin: 80px 0 0 5%;
 	text-align: center	
 }
 
@@ -438,7 +438,6 @@ button:focus {
 .mu-about-area {
 	display: inline;
 	float: left;
-	padding: 100px 0;
 	width: 100%;
 }
 
@@ -460,7 +459,6 @@ button:focus {
 	background-color: #fff;
 	display: inline;
 	float: left;
-	margin-top: 70px;
 	padding: 20px;
 	width: 100%;
 }
@@ -476,6 +474,19 @@ button:focus {
 	float: left;
 	margin-top: 20px;
 	width: 100%;
+}
+
+.mu-about-content-left1 {
+	display: inline;
+	float: left;
+	width: 50%;
+}
+
+.mu-about-content-right1 {
+	display: inline;
+	float: left;
+	margin-top: 20px;
+	width: 50%;
 }
 
 .mu-skill-progress-bar {
